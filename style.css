@@ -30,6 +30,10 @@ h1 {
   font-size: 1.5rem;
   color: orange;
 }
+#pencil,
+#trash {
+  cursor: pointer;
+}
 input {
   font-family: inherit;
   outline: 0;
@@ -42,4 +46,21 @@ input {
   margin-right: 10px;
   margin-top: 15px;
   font-size: 2rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .pencil-icon {
+    font-size: 1.5rem;
+  }
+  input {
+    font-size: 1rem;
+  }
+  #allItems h2 {
+    margin-left: 25px;
+    font-size: 1.5rem;
+  }
 }
